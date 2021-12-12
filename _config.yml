@@ -17,8 +17,8 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: Análisis de perfiles de profesionales de la salud que consultan el Visor de Información Abreviada del Usuario
+  tagline: VIAU
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
