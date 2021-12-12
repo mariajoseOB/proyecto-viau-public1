@@ -21,7 +21,7 @@ texture:
   tagline: VIAU
   date_format: "%b %-d, %Y"
   style: black
-  showNav: true #originalmente estaba false
+  showNav: false
   showPicker: false
 
   # Links de redes sociales:
