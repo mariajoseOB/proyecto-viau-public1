@@ -24,7 +24,7 @@ texture:
   showNav: false
   showPicker: false
 
-  # generate social links in footer
+  # Links de redes sociales:
   social_links:
     twitter: thelehhman
     github:  thelehhman
