@@ -9,12 +9,6 @@ Con el análisis exploratorio pudimos responder las siguientes preguntas:
 
     Lo primero que notamos fue que la mayoría de los profesionales tiene un contrato de tipo ```plazo fijo```, estos tienen el mayor número de consultas como se puede visualizar en el gráfico, no obstante, es de esperarse ya que son los que más tiempo pasan con la plataforma. Por otro lado, podemos notar que los profesionales con contrato de tipo ```reemplazo``` tienen el porcentaje más alto de ```not_a_user```, esto se puede deber a que no se han podido familiarizar bien con la plataforma en el tiempo que estuvieron como reemplazo. Finalmente, los profesionales con contrato ```indefinido``` tienen un uso bastante similar al de los con contrato ```plazo fijo```.
 <br/><br/>
-
-<html>
-<head>
-  <script src="graficos/tipo_de_contrato"></script>
-</head>
-
 2. **Según el tipo de jornada de los profesionales. ¿Quiénes son los que más visitan el VIAU?**
 
     Al ver el primer gráfico podemos notar que hay una gran diferencia entre el número de consultas de los profesionales con jornada mayor a 40 horas semanales a comparación del resto, no obstante, si uno profundiza en el análisis puede ver que las categorías de las consultas se distribuyen de manera bastante uniforme, es decir, que independiente al tipo jornada que tengan los profesionales, el uso del VIAU es similar.
