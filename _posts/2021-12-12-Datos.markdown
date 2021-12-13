@@ -24,6 +24,7 @@ Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 
 
 También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
 
+|---
 |Columna|Descripción|Tipo de variable|Formato
 |---|---|---|---
 |establecimiento|Nombre Propio del Establecimiento donde trabaja el funcionario|categórica|str
@@ -38,6 +39,7 @@ También contábamos con una tabla con datos que caracterizan a los funcionarios
 |cargo|Cargo que ejerce en el establecimiento|categórica|str
 |jornada|Horas semanales de trabajo|ordinal|int
 |rut_completo|Concatenación entre columna run y dv|categórica|str
+|---
 
 - Además de la tabla con datos de los funcionarios se nos entregó una tabla con datos que caracterizan a los establecimientos del sistema de salud, donde cada fila es un establecimiento. Luego de hacer limpieza y de seleccionar las columnas de interés obtuvimos la siguiente estructura:
 
