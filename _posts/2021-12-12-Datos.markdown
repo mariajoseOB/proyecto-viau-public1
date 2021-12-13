@@ -18,6 +18,12 @@ Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
 | year | Año de la consulta | ordinal | int |
 
 
+| Primer encabezado | Segundo encabezado |
+| ------------- | ------------- |
+| Contenido de la celda  | Contenido de la celda  |
+| Contenido de la celda  | Contenido de la celda  |
+
+
 - También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
 
 |Columna|Descripción|Tipo de variable|Formato
