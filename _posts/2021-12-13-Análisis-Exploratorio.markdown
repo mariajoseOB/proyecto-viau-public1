@@ -7,8 +7,7 @@ Con el análisis exploratorio pudimos responder las siguientes preguntas:
 
 - **Según el tipo de contrato de los profesionales. ¿Quiénes hacen mayor uso del VIAU?**
 
-Lo primero que notamos fue que la mayoría de los profesionales tiene un contrato de tipo ```plazo fijo```, estos tienen el mayor número de consultas como se puede visualizar en el gráfico, no obstante, es de esperarse ya que son los que más tiempo pasan con la plataforma. Por otro lado, podemos notar que los profesionales con contrato de tipo ```reemplazo``` tienen el porcentaje más alto de ```not_a_user```, esto se puede deber a que no se han podido familiarizar bien con la plataforma en el tiempo que estuvieron como reemplazo. Finalmente, los profesionales con contrato ```indefinido``` tienen un uso bastante similar al de los con contrato ```plazo fijo```.
-<br/><br/>
+Lo primero que notamos fue que la mayoría de los profesionales tiene un contrato de tipo *Plazo fijo*, estos tienen el mayor número de consultas como se puede visualizar en el gráfico, no obstante, es de esperarse ya que son los que más tiempo pasan con la plataforma. Por otro lado, podemos notar que los profesionales con contrato de tipo *Reemplazo* tienen el porcentaje más alto de *not_a_user*, esto se puede deber a que no se han podido familiarizar bien con la plataforma en el tiempo que estuvieron como reemplazo. Finalmente, los profesionales con contrato *Indefinido* tienen un uso bastante similar al de los con contrato *Plazo fijo*.
 
 {% include tipo_de_contrato-freq.html %}
 {% include tipo_de_contrato.html %}
