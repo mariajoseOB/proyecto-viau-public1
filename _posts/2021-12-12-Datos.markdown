@@ -8,7 +8,6 @@ Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
 - Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 2021, los cuáles unimos en un sólo dataframe agregando la columna "year" que contiene el año de la consulta, obteniendo la siguiente estructura:
 
 |Columna|Descripción|Tipo de variable|Formato|
-
 |:---|:---|:---|:---|
 |fecha|Fecha de la consulta|ordinal|string(dd-mm-aaaa hora:min:seg)|
 |rut_pac|Rut del paciente sobre el que se está consultando|categórica|str|
