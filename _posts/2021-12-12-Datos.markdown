@@ -13,7 +13,7 @@ Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 
 
 <p>This is a para.</p>
 
-|---
+| ---
 | Columna | Descripción | Tipo de variable | Formato |
 | --- | --- | --- | --- |
 | fecha | Fecha de la consulta | ordinal | string(dd-mm-aaaa hora:min:seg)|
@@ -22,6 +22,7 @@ Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 
 | rut_consultante | Rut del profesional que realiza la consulta | categórica | str |
 | detalle | Indica qué tipo de información se consultó | categórica | str |
 | year | Año de la consulta | ordinal | int |
+
 </div>
 
 ### C
