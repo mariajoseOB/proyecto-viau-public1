@@ -1,6 +1,6 @@
 ---
 layout: post
-tittle: "Contexto de nuestro proyecto"
+tittle: "Contexto"
 date: 2021-12-12 15:29:36 +0530
 ---
 Nuestro proyecto se enfoca en comprender cuál es el perfil de los clínicos que usan la plataforma VIAU, con el fin de informar el desarrollo de una estrategia de difusión de la herramienta y así potenciar su uso por los equipos clínicos del Servicio de Salud Metropolitano Sur Oriente.
