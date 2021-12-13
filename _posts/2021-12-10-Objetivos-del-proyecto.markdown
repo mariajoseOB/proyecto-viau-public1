@@ -7,3 +7,4 @@ Nuestro principal objetivo fue responder ¿Cuáles son los perfiles de los profe
 
 Se espera que con los resultados obtenidos a lo largo de este proyecto, el equipo que gestiona el VIAU pueda diseñar una estrategia de comunicación para potenciar el uso de la plataforma.
 
+![](http://saluddigital.ssmso.cl/wp-content/uploads/2020/03/Noticia-VIAU-RAYEN.png)
