@@ -20,6 +20,24 @@ Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 
 | detalle | Indica qué tipo de información se consultó | categórica | str |
 | year | Año de la consulta | ordinal | int |
 
+
+### C
+
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
+
+
+
 ### B
 
 También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
