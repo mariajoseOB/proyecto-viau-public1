@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: "Preguntas objetivo"
-date: 2021-12-13 15:37:36 +0530
+date: 2021-12-13 15:38:36 +0530
 ---
 Como equipo la principal pregunta que esperábamos poder responder al finalizar nuestro proyecto era ¿Cuáles son los perfiles de los profesionales que usan el VIAU?, ya que de esta forma lograríamos identificar los perfiles "promotores" del VIAU que jugarían un rol clave en la estrategia de difusión de la herramienta. 
 
