@@ -3,15 +3,14 @@ layout: post
 tittle: "Datos"
 date: 2021-12-13 15:37:36 +0530
 ---
+
+
 Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
 
 Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 2021, los cuáles unimos en un sólo dataframe agregando la columna "year" que contiene el año de la consulta, obteniendo la siguiente estructura:
 
-### Amost always imports
 
 <div>
-
-<p>This is a para.</p>
 
 | ---
 | Columna | Descripción | Tipo de variable | Formato |
@@ -24,23 +23,6 @@ Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 
 | year | Año de la consulta | ordinal | int |
 
 </div>
-
-### C
-
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-
-
 
 ### B
 
