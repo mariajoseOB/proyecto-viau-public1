@@ -29,22 +29,20 @@ Analizando los resultados del gráfico podemos ver que los médicos y los(as) ma
 - **¿Qué género hace mayor uso del VIAU?** 
 
 Al comparar el número de consultas entre ambos géneros notamos que las mujeres tienen un número mucho mayor de consultas, pero al comparar con mayor profundidad podemos ver que ambos tienen un uso bastante similar en lo que se refiere al tiempo que la utiliza cada profesional.
-<br/><br/>
 
 {% include sexo-freq.html %}
 {% include sexo.html %}
 
 - **¿Qué tipo de establecimiento hace mayor uso del VIAU?**
 
-El consultorio general urbano es el que presenta mayor número de consultas, con mucha diferencia, pero en el segundo gráfico podemos notar que el consultorio general rural tiene un mayor porcentaje de ```heavy_user```.
-<br/><br/>
+El consultorio general urbano es el que presenta mayor número de consultas, con mucha diferencia, pero en el segundo gráfico podemos notar que el consultorio general rural tiene un mayor porcentaje de *heavy_user*.
 
 {% include tipo_establecimiento-freq.html %}
 {% include tipo_establecimiento.html %}
 
 - **¿Qué grupo etario hace mayor uso del VIAU?**
 
-El grupo etario con mayor volumen de consultas es ```30-40```, no obstante, es el segundo grupo con menor porcentaje de ```heavy_user```. Por otro lado, el grupo que tiene mayor porcentaje de ```heavy_user``` es ```20-30```, esto se puede deber a que al ser más jóvenes entienden mejor el funcionamiento de la plataforma y se familiarizan con ella más rápido.
+El grupo etario con mayor volumen de consultas es ***30-40***, no obstante, es el segundo grupo con menor porcentaje de *heavy_user*. Por otro lado, el grupo que tiene mayor porcentaje de *heavy_user* es ***20-30***, esto se puede deber a que el ser más jóvenes entienden mejor el funcionamiento de la plataforma y se familiarizan con ella más rápido.
 
 {% include edad_cat-freq.html %}
 {% include edad_cat.html %}
