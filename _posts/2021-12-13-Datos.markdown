@@ -1,1 +1,75 @@
+Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
 
+1. Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 2021, los cuáles unimos en un sólo dataframe agregando la columna "year" que contiene el año de la consulta, obteniendo la siguiente estructura:
+
+|Columna|Descripción|Tipo de variable|Formato
+|---|---|---|---
+|fecha|Fecha de la consulta|ordinal|string(dd-mm-aaaa hora:min:seg)
+|rut_pac|Rut del paciente sobre el que se está consultando|categórica|str
+|agente|Nombre del proveedor tecnológico desde donde se está obteniendo la información|categórica|str
+|rut_consultante|Rut del profesional que realiza la consulta|categórica|str
+|detalle|Indica qué tipo de información se consultó|categórica|str
+|year|Año de la consulta|ordinal|int
+
+2. También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
+
+|Columna|Descripción|Tipo de variable|Formato
+|---|---|---|---
+|establecimiento|Nombre Propio del Establecimiento donde trabaja el funcionario|categórica|str
+|run|Rut del funcionario|categórica|int
+|dv|Autoexplicativo|categórica|int
+|sexo|Sexo del funcionario|categórica|str
+|nacionalidad|Nacionalidad del funcionario|categórica|str
+|ley_contratacion|Indica si el funcionario trabaja a Honorarios o, si está contratado, indica si su contrato está sometido al estatuto de atención primaria de salud municipal|categórica|str
+|tipo_de_contrato|En caso de estar contratado/a, indica si el contrato es indefinido, plazo fijo o reemplazo. Si no está contratado/a es NaN|categórica|str
+|profesion|Autoexplicativo|categórica|str
+|especialidad|Si el funcionario es médico, indica especialidad|categórica|str
+|cargo|Cargo que ejerce en el establecimiento|categórica|str
+|jornada|Horas semanales de trabajo|ordinal|int
+|rut_completo|Concatenación entre columna run y dv|categórica|str
+
+3. Además de la tabla con datos de los funcionarios se nos entregó una tabla con datos que caracterizan a los establecimientos del sistema de salud, donde cada fila es un establecimiento. Luego de hacer limpieza y de seleccionar las columnas de interés obtuvimos la siguiente estructura:
+
+|Columna|Descripción|Tipo de variable|Formato
+|---|---|---|---
+|codigo_nuevo_establecimiento|Identificador del establecimiento que permitirá un posterior join|categórica|str
+|nombre_oficial|Nombre propio del establecimiento|categórica|str
+|tipo_establecimiento|Tipo de establecimiento (Consultorio, Alta/Mediana Complejidad, Posta)|categórica|str
+|nombre_comuna|Nombre de la comuna donde se ubica el establecimiento|categórica|str
+|longitud_grados_decimales|Longitud|categórica|str
+|latitud_grados_decimales|Latitud|categórica|str
+
+4. Otra tabla que se nos entregó contiene datos que indican qué proveedor tecnológico (agente) está asociado a cada establecimiento.
+
+Finalmente al unir todas las tablas anteriores obtenemos un dataset final con la siguiente estructura:
+
+|Columna|Descripción|Tipo de variable|Formato
+|---|---|---|---
+|fecha|Fecha de la consulta|ordinal|string(dd-mm-aaaa hora:min:seg)
+|rut_pac|Rut del paciente sobre el que se está consultando|categórica|str
+|rut_consultante|Rut del profesional que realiza la consulta|categórica|str
+|detalle|Indica qué tipo de información se consultó|categórica|str
+|year|Año de la consulta|ordinal|int
+|agente_estandarizado|Nombre del proveedor tecnológico desde donde se está obteniendo la información|categórica|str
+|establecimiento|Nombre Propio del Establecimiento donde trabaja el funcionario|categórica|str
+|run|Rut del funcionario|categórica|int
+|dv|Autoexplicativo|categórica|int
+|sexo|Sexo del funcionario|categórica|str
+|nacionalidad|Nacionalidad del funcionario|categórica|str
+|ley_contratacion|Indica si el funcionario trabaja a Honorarios o, si está contratado, indica si su contrato está sometido al estatuto de atención primaria de salud municipal|categórica|str
+|tipo_de_contrato|En caso de estar contratado/a, indica si el contrato es indefinido, plazo fijo o reemplazo. Si no está contratado/a es NaN|categórica|str
+|profesion|Autoexplicativo|categórica|str
+|especialidad|Si el funcionario es médico, indica especialidad|categórica|str
+|cargo|Cargo que ejerce en el establecimiento|categórica|str
+|jornada|Horas semanales de trabajo|ordinal|float
+|rut_completo|Concatenación entre columna run y dv|categórica|str
+|codigo_nuevo_establecimiento|Identificador del establecimiento que permitirá un posterior join|categórica|float
+|nombre_oficial|Nombre propio del establecimiento|categórica|str
+|tipo_establecimiento|Tipo de establecimiento (Consultorio, Alta/Mediana Complejidad, Posta)|categórica|str
+|nombre_comuna|Nombre de la comuna donde se ubica el establecimiento|categórica|str
+|longitud_grados_decimales|Longitud|categórica|str
+|latitud_grados_decimales|Latitud|categórica|str
+|codigo_establecimiento|Código específico del establecimiento|categórica|float
+|agente|Nombre del proveedor tecnológico desde donde se está obteniendo la información|categórica|str
+|rut_dv_sin_g|Rut más el dígito verificador|categórica|str
+|edad_estimada|Variable que se usa para predecir la edad a partir del rut|categórica|float
