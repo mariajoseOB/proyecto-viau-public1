@@ -7,14 +7,53 @@ Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
 
 - Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 2021, los cuáles unimos en un sólo dataframe agregando la columna "year" que contiene el año de la consulta, obteniendo la siguiente estructura:
 
-|Columna|Descripción|Tipo de variable|Formato
-|---|---|---|---
-|fecha|Fecha de la consulta|ordinal|string(dd-mm-aaaa hora:min:seg)
-|rut_pac|Rut del paciente sobre el que se está consultando|categórica|str
-|agente|Nombre del proveedor tecnológico desde donde se está obteniendo la información|categórica|str
-|rut_consultante|Rut del profesional que realiza la consulta|categórica|str
-|detalle|Indica qué tipo de información se consultó|categórica|str
-|year|Año de la consulta|ordinal|int
+
+<table class="default">
+
+<tr>
+<th>Columna</th>
+<th>Descripción</th>
+<th>Tipo de variable</th>
+<th>Formato</th>
+</tr>
+<tr>
+<td>fecha</td>
+<td>Fecha de la consulta</td>
+<td>ordinal</td>
+<td>string(dd-mm-aaaa hora:min:seg)</td>
+</tr>
+<tr>
+<td>rut_pac</td>
+<td>Rut del paciente sobre el que se está consultando</td>
+<td>categórica</td>
+<td>str</td>
+</tr>
+<tr>
+<td>agente</td>
+<td>RNombre del proveedor tecnológico desde donde se está obteniendo la información</td>
+<td>categórica</td>
+<td>str</td>
+</tr>
+<tr>
+<td>rut_consultante</td>
+<td>Rut del profesional que realiza la consulta</td>
+<td>categórica</td>
+<td>str</td>
+</tr>
+<tr>
+<td>detalle</td>
+<td>Indica qué tipo de información se consultó</td>
+<td>categórica</td>
+<td>str</td>
+</tr>
+<tr>
+<td>year</td>
+<td>Año de la consulta</td>
+<td>ordinal</td>
+<td>int</td>
+</tr>
+
+</table>
 
 - También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
 
