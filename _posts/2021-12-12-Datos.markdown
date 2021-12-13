@@ -9,6 +9,7 @@ Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
 
 |Columna|Descripción|Tipo de variable|Formato
 |---|---|---|---
+
 |fecha|Fecha de la consulta|ordinal|string(dd-mm-aaaa hora:min:seg)
 |rut_pac|Rut del paciente sobre el que se está consultando|categórica|str
 |agente|Nombre del proveedor tecnológico desde donde se está obteniendo la información|categórica|str
