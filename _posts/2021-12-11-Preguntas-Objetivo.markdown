@@ -15,4 +15,4 @@ Para lograr esto planteamos una serie de preguntas de investigación las cuáles
 6. **¿Qué grupo etario hace mayor uso del VIAU?**
 7. **Según la nacionalidad. ¿Qué grupo usa más el VIAU?**
 
-![](imagenes/hombre_pensando.png)
+![](https://github.com/mariajoseOB/proyecto-viau-public1/blob/main/_posts/imagenes/hombre_pensando.png?raw=true)
