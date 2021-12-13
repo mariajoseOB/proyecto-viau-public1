@@ -9,7 +9,7 @@ Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 
 
 ### Amost always imports
 
-| ---
+|---
 | Columna | Descripción | Tipo de variable | Formato |
 | --- | --- | --- | --- |
 
@@ -20,7 +20,7 @@ Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 
 | detalle | Indica qué tipo de información se consultó | categórica | str |
 | year | Año de la consulta | ordinal | int |
 
-
+### B
 
 También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
 
