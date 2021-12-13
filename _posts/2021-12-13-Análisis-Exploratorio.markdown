@@ -28,7 +28,4 @@ Con el análisis exploratorio pudimos responder las siguientes preguntas:
 6. **¿Qué grupo etario hace mayor uso del VIAU?**
 
     El grupo etario con mayor volumen de consultas es ```30-40```, no obstante, es el segundo grupo con menor porcentaje de ```heavy_user```. Por otro lado, el grupo que tiene mayor porcentaje de ```heavy_user``` es ```20-30```, esto se puede deber a que al ser más jóvenes entienden mejor el funcionamiento de la plataforma y se familiarizan con ella más rápido.
-<br/><br/>
-7. **Según la nacionalidad. ¿Qué grupo usa más el VIAU?**
 
-    Podemos ver en el gráfico que los profesionales que no tienen nacionalidad chilena tienden a tener un mayor uso de la plataforma, mientras que los profesionales con nacionalidad chilena tienen un alto porcentaje de ```not_a_user```.
