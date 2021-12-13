@@ -1,3 +1,8 @@
+---
+layout: post
+tittle: "Análisis exploratorio"
+date: 2021-12-13 15:36:36 +0530
+---
 Con el análisis exploratorio pudimos responder las siguientes preguntas:
 
 1. **Según el tipo de contrato de los profesionales. ¿Quiénes hacen mayor uso del VIAU?**
