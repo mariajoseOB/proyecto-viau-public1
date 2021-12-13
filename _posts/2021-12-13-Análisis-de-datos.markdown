@@ -3,7 +3,7 @@ layout: post
 tittle: "Análisis de datos"
 date: 2021-12-13 15:34:36 +0530
 ---
-Luego de realizar el análisis exploratorio decidimos añadir métodos de clustering para nuestra investigación, no obstante, tuvimos algunos inconvenientes, ya que la mayoría de nuestros datos eran de tipo categórico, por lo que no podíamos hacer uso de **KMeans**, así que siguiendo los consejos de nuestra profesora e investigando sobre KModes logramos realizar el análisis con clustering, para poder analizar correctamente los resultados decidimos usar gráficos de barras con los distintos tipos de variables. 
+Luego de realizar el análisis exploratorio decidimos añadir métodos de clustering para nuestra investigación, no obstante, tuvimos algunos inconvenientes, ya que la mayoría de nuestros datos eran de tipo categórico, por lo que no podíamos hacer uso de **KMeans**, así que siguiendo los consejos de nuestra profesora e investigando sobre KModes logramos realizar el análisis con clustering, para poder analizar correctamente los resultados decidimos usar gráficos de barras con las distintas variables. 
 
 {% include clusters_consultas_cat.html %}
 
