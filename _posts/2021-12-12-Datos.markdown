@@ -11,7 +11,7 @@ Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 
 
 | ---
 | Columna | Descripción | Tipo de variable | Formato |
-|:---:|:---:|:---:|:---:
+| --- | --- | --- | --- |
 | fecha | Fecha de la consulta | ordinal | string(dd-mm-aaaa hora:min:seg)|
 | rut_pac | Rut del paciente sobre el que se está consultando | categórica | str |
 | agente | Nombre del proveedor tecnológico desde donde se está obteniendo la información |categórica | str |
@@ -42,7 +42,7 @@ También contábamos con una tabla con datos que caracterizan a los funcionarios
 Además de la tabla con datos de los funcionarios se nos entregó una tabla con datos que caracterizan a los establecimientos del sistema de salud, donde cada fila es un establecimiento. Luego de hacer limpieza y de seleccionar las columnas de interés obtuvimos la siguiente estructura:
 
 |Columna|Descripción|Tipo de variable|Formato
-|:---:|:---:|:---:|:---:
+|---|---|---|---
 |codigo_nuevo_establecimiento|Identificador del establecimiento que permitirá un posterior join|categórica|str
 |nombre_oficial|Nombre propio del establecimiento|categórica|str
 |tipo_establecimiento|Tipo de establecimiento (Consultorio, Alta/Mediana Complejidad, Posta)|categórica|str
@@ -55,7 +55,7 @@ Otra tabla que se nos entregó contiene datos que indican qué proveedor tecnol�
 Finalmente al unir todas las tablas anteriores obtenemos un dataset final con la siguiente estructura:
 
 |Columna|Descripción|Tipo de variable|Formato
-|:---:|:---:|:---:|:---:
+|---|---|---|---
 |fecha|Fecha de la consulta|ordinal|string(dd-mm-aaaa hora:min:seg)
 |rut_pac|Rut del paciente sobre el que se está consultando|categórica|str
 |rut_consultante|Rut del profesional que realiza la consulta|categórica|str
