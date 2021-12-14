@@ -14,7 +14,7 @@ Lo primero que notamos fue que la mayoría de los profesionales tiene un contrat
 
 - **Según el tipo de jornada de los profesionales. ¿Quiénes son los que más visitan el VIAU?**
 
-Al ver el primer gráfico podemos notar que hay una gran diferencia entre el número de consultas de los profesionales con jornada mayor a 40 horas semanales a comparación del resto, no obstante, si uno profundiza en el análisis puede ver que las categorías de las consultas se distribuyen de manera bastante uniforme, es decir, que independiente al tiempo jornada que tengan los profesionales, el uso del VIAU es similar. 
+Al ver el primer gráfico podemos notar que hay una gran diferencia entre el número de consultas de los profesionales con jornada mayor a 40 horas semanales a comparación del resto, no obstante, si uno profundiza en el análisis puede ver que las categorías de las consultas se distribuyen de manera bastante uniforme, es decir, que independiente al tiempo jornada que tengan los profesionales, el uso del VIAU es similar.
 
 {% include jornada_cat-freq.html %}
 {% include jornada_cat.html %}
