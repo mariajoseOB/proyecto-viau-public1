@@ -5,7 +5,7 @@ date:   2021-12-13 12:03:36 +0530
 ---
 En conclusión, recopilando los resultados obtenidos, pudimos averiguar lo siguiente:
 
-- Los hombre y mujeres hacen un uso similar de la plataforma.
+- Los hombres y mujeres hacen un uso similar de la plataforma.
 - Las profesiones médico, matrón(a) y enfermero(a) son los que tienen un uso más alto de la plataforma.
 - Los profesionales de las comunas de La Florida y La Pintana hacen un uso mayor de la plataforma.
 - El tipo de contrato no tiene mucho impacto en el tipo de uso que hace el profesional en la plataforma.
