@@ -24,7 +24,7 @@ date: 2021-12-13 15:37:36 +0530
 
 |---
 |Columna|Descripción|Tipo de variable|Formato
-|:-:|:-:|:-:|:-:
+|:---:|:---:|:---:|:---:
 |establecimiento|Nombre Propio del Establecimiento donde trabaja el funcionario|categórica|str
 |run|Rut del funcionario|categórica|int
 |dv|Autoexplicativo|categórica|int
