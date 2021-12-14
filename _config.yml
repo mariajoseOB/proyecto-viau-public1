@@ -25,11 +25,11 @@ texture:
   showPicker: false
 
   # Links de redes sociales:
-  social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
+  #social_links:
+    #twitter: thelehhman
+    #github:  thelehhman
+    #linkedIn: in/thelehhman
+    #rss: rss
  
 
 # If you want to link only specific pages in your header, uncomment
