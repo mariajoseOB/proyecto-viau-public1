@@ -23,8 +23,9 @@ Al ver el primer gráfico podemos notar que hay una gran diferencia entre el nú
 
 Analizando los resultados del gráfico podemos ver que los médicos y los(as) matrones(as) tienden a hacer un uso más alto de la plataforma, además tienen un bajo procentaje de *not_a_user*, por lo que se puede inferir que entienden mejor el funcionamiento de la plataforma o sus actividades laborales tienen una mayor dependencia del VIAU.
 
-{% include profesion-freq.html %}
-{% include profesion.html %}
+{% raw %}{% include profesion-freq.html %}{% endraw %}
+{% raw %}{% include profesion.html %}{% endraw %}
+
 
 - **¿Qué género hace mayor uso del VIAU?**
 
