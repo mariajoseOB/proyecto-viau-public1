@@ -9,36 +9,17 @@ Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
 
 Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 2021, los cuáles unimos en un sólo dataframe agregando la columna "year" que contiene el año de la consulta, obteniendo la siguiente estructura:
 
-<div>
 
 
 | ---
 | Columna | Descripción | Tipo de variable | Formato |
 | --- | --- | --- | --- |
-
 | fecha | Fecha de la consulta | ordinal | string(dd-mm-aaaa hora:min:seg)|
 | rut_pac | Rut del paciente sobre el que se está consultando | categórica | str |
 | agente | Nombre del proveedor tecnológico desde donde se está obteniendo la información |categórica | str |
 | rut_consultante | Rut del profesional que realiza la consulta | categórica | str |
 | detalle | Indica qué tipo de información se consultó | categórica | str |
 | year | Año de la consulta | ordinal | int |
-
-
-</div>
-
-### B
-
-|---
-| Default aligned | Left aligned | Center aligned | Right aligned
-|-|:-|:-:|-:
-| First body part | Second cell | Third cell | fourth cell
-| Second line |foo | **strong** | baz
-| Third line |quux | baz | bar
-|---
-| Second body
-| 2 line
-|===
-| Footer row
 
 
 También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
