@@ -6,8 +6,7 @@ date: 2021-12-13 15:34:36 +0530
 
 Luego de realizar el análisis exploratorio decidimos añadir métodos de clustering para nuestra investigación, no obstante, tuvimos algunos inconvenientes, ya que la mayoría de nuestros datos eran de tipo categórico, por lo que no podíamos hacer uso de **K-Means**, así que siguiendo los consejos de nuestra profesora e investigando sobre K-Modes logramos realizar el análisis con clustering, para poder analizar correctamente los resultados decidimos usar gráficos de barras con las distintas variables. Para una explicación sencilla y paso a paso de este algoritmo, consultar [aquí](https://www.analyticsvidhya.com/blog/2021/06/kmodes-clustering-algorithm-for-categorical-data/)
 
-Luego de realizar el análisis exploratorio decidimos añadir métodos de clustering para nuestra investigación, no obstante, tuvimos algunos inconvenientes, ya que la mayoría de nuestros datos eran de tipo categórico, por lo que no podíamos hacer uso de **KMeans**, así que siguiendo los consejos de nuestra profesora e investigando sobre KModes logramos realizar el análisis con clustering, para poder analizar correctamente los resultados decidimos usar gráficos de barras con las distintas variables. 
->>>>>>> parent of f977218 (análisis de datos):_posts/2021-12-13-Análisis-de-datos.markdown
+Luego de realizar el análisis exploratorio decidimos añadir métodos de clustering para nuestra investigación, no obstante, tuvimos algunos inconvenientes, ya que la mayoría de nuestros datos eran de tipo categórico, por lo que no podíamos hacer uso de **KMeans**, así que siguiendo los consejos de nuestra profesora e investigando sobre KModes logramos realizar el análisis con clustering, para poder analizar correctamente los resultados decidimos usar gráficos de barras con las distintas variables.
 
 {% include clusters_consultas_cat.html %}
 
