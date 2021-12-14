@@ -5,9 +5,9 @@ date: 2021-12-13 15:37:36 +0530
 ---
 
 
-- Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
+Los datos utilizados fueron facilitados directamente por el equipo de SSMSO.
 
-- Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 2021, los cuáles unimos en un sólo dataframe agregando la columna "year" que contiene el año de la consulta, obteniendo la siguiente estructura:
+Se nos entregaron 3 datasets con los logs (consultas) de los años 2019, 2020 y 2021, los cuáles unimos en un sólo dataframe agregando la columna "year" que contiene el año de la consulta, obteniendo la siguiente estructura:
 
 | ---
 | Columna | Descripción | Tipo de variable | Formato |
@@ -20,7 +20,7 @@ date: 2021-12-13 15:37:36 +0530
 | year | Año de la consulta | ordinal | int |
 
 
-- También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
+También contábamos con una tabla con datos que caracterizan a los funcionarios de atención primaria, donde cada fila representa a un funcionario en un establecimiento. Luego de hacer la limpieza de esta tabla obtuvimos una estructura como la que se muestra a continuación:
 
 |---
 |Columna|Descripción|Tipo de variable|Formato
@@ -39,7 +39,7 @@ date: 2021-12-13 15:37:36 +0530
 |rut_completo|Concatenación entre columna run y dv|categórica|str
 |---
 
-- Además de la tabla con datos de los funcionarios se nos entregó una tabla con datos que caracterizan a los establecimientos del sistema de salud, donde cada fila es un establecimiento. Luego de hacer limpieza y de seleccionar las columnas de interés obtuvimos la siguiente estructura:
+Además de la tabla con datos de los funcionarios se nos entregó una tabla con datos que caracterizan a los establecimientos del sistema de salud, donde cada fila es un establecimiento. Luego de hacer limpieza y de seleccionar las columnas de interés obtuvimos la siguiente estructura:
 
 |Columna|Descripción|Tipo de variable|Formato
 |:---:|:---:|:---:|:---:
@@ -50,7 +50,7 @@ date: 2021-12-13 15:37:36 +0530
 |longitud_grados_decimales|Longitud|categórica|str
 |latitud_grados_decimales|Latitud|categórica|str
 
-- Otra tabla que se nos entregó contiene datos que indican qué proveedor tecnológico (agente) está asociado a cada establecimiento.
+Otra tabla que se nos entregó contiene datos que indican qué proveedor tecnológico (agente) está asociado a cada establecimiento.
 
 Finalmente al unir todas las tablas anteriores obtenemos un dataset final con la siguiente estructura:
 
