@@ -25,7 +25,7 @@ Analizando los resultados del gráfico podemos ver que los médicos y los(as) ma
 
 {% include profesion-freq.html %}
 
-{% include profes.html %}
+{% include profesion.html %}
 
 - **¿Qué género hace mayor uso del VIAU?**
 
