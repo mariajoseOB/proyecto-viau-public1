@@ -26,7 +26,7 @@ Analizando los resultados del gráfico podemos ver que los médicos y los(as) ma
 {% include profesion-freq.html %}
 {% include profesion.html %}
 
-- **¿Qué género hace mayor uso del VIAU?** 
+- **¿Qué género hace mayor uso del VIAU?**
 
 Al comparar el número de consultas entre ambos géneros notamos que las mujeres tienen un número mucho mayor de consultas, pero al comparar con mayor profundidad podemos ver que ambos tienen un uso bastante similar en lo que se refiere al tiempo que la utiliza cada profesional.
 
