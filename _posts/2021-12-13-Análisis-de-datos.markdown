@@ -18,7 +18,7 @@ A continuación, quisimos ver la relevancia que tenía el tipo de contrato en ca
 
  Analizando los clusters por profesión, dimos con que el cluster 1 estaba mayormente compuesto por enfermero(a)s y matrone(a)s, el cluster 2 tenía mayor porcentaje de TENS y Kinesiólogo(a)s. Además, el cluster 2 contenía al 89% de los médicos, siendo este grupo de profesionales uno bastante numeroso.
 
- {% include profesion_cluster.html %}
+{% include profesion_cluster.html %}
 
  Por otro lado, quisismos analizar que profesión le aportaba mayor cantidad de **heavy_user** a cada cluster y con esto conseguimos ver que en el cluster 0 la mayoría de **heavy_user** está constituido por médicos con un 63,1%, por el contrario, al cluster 1, que sus **heavy_user** están mayormente compuestos por enfermero(a)s y matrone(a)s. En el resto de cluster no se pueden sacar muchas conclusiones, porque son un grupo muy pequeño de **heavy_user**.
 
